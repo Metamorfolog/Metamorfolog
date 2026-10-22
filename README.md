@@ -24,7 +24,6 @@ My interests span web products, desktop and mobile utilities, self-hosted servic
 | --- | --- | --- |
 | 📲 **[PhoneDrop](https://github.com/Metamorfolog/phonedrop)** | Transfers files between phones and computers over a local network, including an APK installation flow. | Android · Windows · macOS · QR pairing · GitHub Actions releases |
 | 🗂️ **[FileAction](https://github.com/Metamorfolog/file_action)** | A keyboard-driven radial menu for local file conversion, processing, and automation. | Windows / Linux · desktop UX · presets · watched folders |
-| ⚡ **[T3MP3ST](https://github.com/Metamorfolog/T3MP3ST)** | An experimental multi-agent framework for **authorized** security testing and research. | TypeScript · coding agents · MCP · reproducible test tooling |
 
 **Try the products:** [PhoneDrop website](https://phonedrop.apexpiksel.cz) · [FileAction website](https://fileaction.apexpiksel.cz)
 
