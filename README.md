@@ -2,63 +2,58 @@
 
 # Hi, I'm Roman 👋
 
-**AI-assisted software development · Full-stack applications · Developer tools**
+**Full-stack developer · AI coding agents · Self-hosted infrastructure**
 
-I turn ideas into working software — from architecture and implementation to testing, deployment, and iteration.
+I build software that actually ships: from requirements and architecture to tested, deployed and running systems.
 
-[Explore my projects](#selected-public-projects) · [How I work](#how-i-work) · [Tech stack](#tech-stack)
+🇬🇧 English · 🇨🇿 [Česky](README.cs.md)
+
+**[pikldev.cloud](https://pikldev.cloud)** · [Public projects](#public-projects) · [Production work](#private-work-in-production) · [How I work](#how-i-work)
 
 </div>
 
 ---
 
-### What I'm building
+### What I do
 
-I focus on **useful software, AI-agent workflows, and automation**. I work with coding agents such as **Claude Code and Codex**, but treat their output like any other code: it needs review, tests, and a clear purpose.
+I design, build and operate complete applications: web and mobile frontends, APIs, databases and the Linux servers they run on. Coding agents like **Claude Code and Codex** write much of the code. I set the direction, review every diff, test it and answer for the result.
 
-My interests span web products, desktop and mobile utilities, self-hosted services, local AI, and the occasional hardware integration.
-
-### Selected public projects
+### Public projects
 
 | Project | What it does | Highlights |
 | --- | --- | --- |
-| 📲 **[PhoneDrop](https://github.com/Metamorfolog/phonedrop)** | Transfers files between phones and computers over a local network, including an APK installation flow. | Android · Windows · macOS · QR pairing · GitHub Actions releases |
-| 🗂️ **[FileAction](https://github.com/Metamorfolog/file_action)** | A keyboard-driven radial menu for local file conversion, processing, and automation. | Windows / Linux · desktop UX · presets · watched folders |
+| 🗂️ **[FileAction](https://github.com/Metamorfolog/file_action)** | Click-free file conversion: drag a file, tap a key, drop it on a radial wheel. Fully local. | Windows / Linux · tests + CI · 15 releases · [website](https://fileaction.apexpiksel.cz) |
+| 📲 **[PhoneDrop](https://github.com/Metamorfolog/phonedrop)** | Drop a file on a small Windows window and it lands on your Android phone; APKs install with one tap. | Windows · Android · macOS · QR pairing · signed self-updates · [website](https://phonedrop.apexpiksel.cz) |
 
-**Try the products:** [PhoneDrop website](https://phonedrop.apexpiksel.cz) · [FileAction website](https://fileaction.apexpiksel.cz)
+### Private work in production
 
-### Selected private work
+Client and commercial systems stay private. Case studies with screenshots from demo data are on **[pikldev.cloud](https://pikldev.cloud)**.
 
-Some projects are private because they contain commercial or operational work. I can discuss their architecture and development process without publishing their source code.
-
-- **Workforce scheduling platform** — Next.js administration, Flutter mobile app, FastAPI/PostgreSQL backend, constraint-based planning (CP-SAT), audit history, integration tests, and deployment documentation.
-- **Multi-tenant attendance SaaS** — Next.js, PostgreSQL/Supabase, tenant isolation, QR check-in, document workflows, and ESP32 hardware integration.
-- **Czech voice-controlled assistant** — Python/FastAPI, speech interface, LLM tool calling, and desktop automation.
-- **AI orchestration experiments** — project-aware agent workflows, self-hosted models, and supervised execution.
+- **ReadyOps + Dispatch** — operations platform for large automotive events: guest registration and QR/NFC check-in, fleet, test drives, handovers, and a live GPS dispatch map. Dispatch ran at NATO Days 2026 with 25 cars and drivers. *NestJS · Next.js · Flutter · PostgreSQL · SSE · Mapbox*
+- **Účto** — AI processing of accounting documents (upload or e-mail intake, LLM extraction, human review, export to accounting software). Used by three companies. *NestJS · Next.js · BullMQ · Claude*
+- **Roster** — shift scheduling with an OR-Tools CP-SAT solver, Next.js admin and Flutter app. *FastAPI · PostgreSQL · Alembic*
+- **Attendance SaaS** — attendance and staff admin with QR check-in hardware (ESP32), multi-tenant via Postgres RLS. *Next.js · Supabase*
+- **Nightshift** — task runner that executes Claude Code on my own servers from a Postgres queue, with verification gates and an Android client.
 
 ### How I work
 
-1. **Define the outcome** — requirements, constraints, architecture, and acceptance criteria.
-2. **Build with the right tools** — hands-on development alongside Claude Code, Codex, and local models.
-3. **Verify, don't assume** — code review, automated tests, integration checks, and security considerations.
-4. **Ship and improve** — deployment, observability, feedback, and iteration.
+1. **Define the outcome** — real workflow, edge cases, acceptance criteria.
+2. **Design first** — data model, boundaries, what must be enforced by the database.
+3. **Orchestrate agents** — small independent tasks, parallel runs, clear briefs.
+4. **Verify, don't assume** — read every diff, typecheck, lint, tests, second-pass review.
+5. **Ship and operate** — Docker behind Caddy on my own Linux servers, backups, migrations, logs.
 
 ### Tech stack
 
-**Web & backend:** TypeScript, JavaScript, React, Next.js, Node.js, NestJS, Python, FastAPI, REST APIs
-
-**Data & infrastructure:** PostgreSQL, Supabase, Redis, Docker, GitHub Actions, Linux, self-hosted deployments
-
-**Apps & hardware:** Flutter/Dart, C#/.NET, Android, Swift/SwiftUI, ESP32
-
-**AI & tooling:** Claude Code, Codex, MCP integrations, OpenRouter, Ollama, agent orchestration
+**Web & backend:** TypeScript, React, Next.js, Node.js, NestJS, Fastify, Python, FastAPI
+**Data & infra:** PostgreSQL, Supabase, Redis, Docker, Caddy, Linux, WireGuard, GitHub Actions
+**Apps & hardware:** Flutter/Dart, Kotlin, C#/.NET, Swift, ESP32
+**AI:** Claude Code, Codex, Claude API, OpenRouter, Ollama, MCP
 
 ---
 
 <div align="center">
 
-🇨🇿 Based in Czechia · Building for the web, desktop, mobile, and beyond.
-
-*Interested in the architecture or implementation of a private project? Feel free to get in touch via GitHub.*
+🇨🇿 Based in Czechia · **[pikldev.cloud](https://pikldev.cloud)**
 
 </div>
